@@ -1,0 +1,47 @@
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.inputs {
+  padding-top: 40%;
+  text-align: center;
+}
+
+.range-slider {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 80px;
+}
+
+.inputBox {
+  padding: 10px 0 0;
+}
+
+.inp {
+  font-size: 18px;
+  width: 70px;
+  text-align: center;
+  padding: 5px;
+}
+
+.inp + .inp {
+  float: right;
+}
+
+canvas {
+  padding-left: 20%;
+  display: inline;
+}
+
+.starCanvas {
+  padding-right: 50%;
+  width: 100%;
+  text-align:center;
+}
+
+img.color-img {
+  position: absolute;
+  left: 50%;
+}
