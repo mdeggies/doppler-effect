@@ -3,15 +3,10 @@ $(document).ready(init);
 function init() {
   var hexMap = hexMapper();
 
+  //animate star using greensock's library
   TweenMax.to(".star", 4, {y:150, x:400, ease:Linear.easeIn, scaleX: 0.1, scaleY: 0.1, repeat: -1});
-  //TweenMax.to(".star", 4, {y:150, x:0, ease:Linear.easeOut, scaleX: 0.1, scaleY: 0.1, repeat: -1})
 
-  // TweenLite.to(".star", 4, {rotationY:100, ease:Linear.easeIn, scaleX:0.1, scaleY:.1, repeat:10, repeatDelay: 5,
-  //   onComplete:function() {
-  //     TweenLite.to(".star", 4, {rotationX:180, ease:Linear.easeOut, scaleX:0.8, scaleY:.8, repeat:10, repeatDelay: 5});
-  //   }
-  // });
-
+  //initialize slider
   var $range = $(".js-range-slider"),
   $from = $(".js-from"),
   range,
@@ -60,6 +55,7 @@ function init() {
 }
 
 function hexMapper() {
+  //return object of hex colors for every possible input value
   var hexMap = {};
 
   var whiteToBlue = jsgradient.generateGradient('#FFFFFF', '#0000FF', 51); //0 to -50
