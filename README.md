@@ -10,7 +10,7 @@
 
 ## How to run
 
-https://dopplereffect.herokuapp.com/
+
 
 You can run the simulation locally by navigating to the directory in your terminal and running the 'serve' command and viewing the page at http://localhost:3000/. Alternatively, you can run 'python -m SimpleHTTPServer 3000' if 'serve' doesn't work.
 
