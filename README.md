@@ -26,7 +26,7 @@ I also decided to keep the scale linear instead of converting it to a logarithmi
 
 This was a really fun challenge to work on. Towards the end, I played around with Greensock's TweenMax animation library. My goal was to create a simulation so that users could actually visualize the movement of the star and see it changing colors as it moves closer/further away. My goal was to change the color of the star in relation to it's easement.
 
-This ended up taking more time than I had allotted for, so I wasn't able to finish.
+The animations ended up taking more time than I had allotted for, so I wasn't able to completely finish. I plan to come back to it later :)
 
 ## Resources
 
