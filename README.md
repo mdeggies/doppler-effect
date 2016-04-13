@@ -10,21 +10,23 @@
 
 ## How to run
 
+View directly at http://mdeggies.github.io/doppler-effect/
 
+OR you can run the simulation locally by navigating to the directory in your terminal and running the 'serve' command and viewing the page at http://localhost:3000/. Alternatively, you can run 'python -m SimpleHTTPServer 3000' if 'serve' doesn't work.
 
-You can run the simulation locally by navigating to the directory in your terminal and running the 'serve' command and viewing the page at http://localhost:3000/. Alternatively, you can run 'python -m SimpleHTTPServer 3000' if 'serve' doesn't work.
+You can also view my code at https://github.com/mdeggies/doppler-effect
 
 ## Design Decisions
 
-Instead of tinting the star, which resulted in very poor quality, I wanted to actually change the star's color. What I did was create a hidden canvas element that overlays the star and changes the color of it's outermost rings.
+Instead of tinting the star, which resulted in very poor quality, I wanted to actually change the star's color. What I did was create a hidden canvas element that overlays the star and changes the color of it's outermost rings. This keeps the quality of the star intact while also keeping in line with the Doppler Effect.
 
-
+I also decided to keep the scale linear instead of converting it to a logarithmic scale. Since our range is just from -100 to 100, the log scale did not act as expected.
 
 ## Todos
 
-This was a really fun challenge to work on. Towards the end, I tried to play around with Greensock's TweenMax animation library. My goal was to change the color of the star based on the
+This was a really fun challenge to work on. Towards the end, I played around with Greensock's TweenMax animation library. My goal was to create a simulation so that users could actually visualize the movement of the star and see it changing colors as it moves closer/further away. My goal was to change the color of the star in relation to it's easement.
 
-
+This ended up taking more time than I had allotted for, so I wasn't able to finish.
 
 ## Resources
 
